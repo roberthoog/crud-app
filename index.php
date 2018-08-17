@@ -19,7 +19,7 @@ $result = $dbConn->query("SELECT * FROM users ORDER BY id DESC");
 
 <a href="add.html">Add New Data</a><br/><br/>
 
-	<table class="table table-hover">
+	<table class="table table-hover table-sm">
 
 	<tr bgcolor='#CCCCCC'>
 		<td>Name</td>

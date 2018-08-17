@@ -1,4 +1,7 @@
-
+body {
+    font-size: 16px;
+    background: #dddddd url("https://photography-rh.com/wp-content/uploads/2017/08/100X100-GRAY.jpg");
+}
 body,
 h1,
 p,
@@ -20,7 +23,6 @@ input, textarea, button  {
     padding: 5px!important;
     margin: 10px!important;
 }
-.errors p,
-.success p {
-    padding: 15px;
+.warning {
+    color: red;
 }

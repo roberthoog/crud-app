@@ -4,6 +4,9 @@
 </head>
 
 <body>
+
+<h1>Simple CRUD app</h1>
+<hr>
 <?php
 //including the database connection file
 include_once("config.php");
@@ -18,15 +21,15 @@ if(isset($_POST['Submit'])) {
 	if(empty($name) || empty($age) || empty($email)) {
 				
 		if(empty($name)) {
-			echo "<font color='red'>Name field is empty.</font><br/>";
+			echo "<p class='warning'>Name field is empty.</p><br/>";
 		}
 		
 		if(empty($age)) {
-			echo "<font color='red'>Age field is empty.</font><br/>";
+			echo "<p class='warning'>Age field is empty.</p><br/>";
 		}
 		
 		if(empty($email)) {
-			echo "<font color='red'>Email field is empty.</font><br/>";
+			echo "<p class='warning'>Email field is empty.</p><br/>";
 		}
 		
 		//link to the previous page
