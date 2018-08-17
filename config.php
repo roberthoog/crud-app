@@ -3,7 +3,7 @@
 $databaseHost = 'localhost';
 $databaseName = 'test';
 $databaseUsername = 'root';
-$databasePassword = 'root';
+$databasePassword = 'r00t';
 
 try {
 	// http://php.net/manual/en/pdo.connections.php

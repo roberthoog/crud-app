@@ -1,0 +1,26 @@
+
+body,
+h1,
+p,
+th,
+tr,
+table {
+    font-family: 'Raleway'!important;, sans-serif;
+    font-weight: 300!important;
+    margin: 20px!important;
+}
+td {
+    font-weight: 800;
+}
+input, textarea, button  {
+    border-radius: 3px!important;
+    border-color: #e1b137!important;
+    border-radius: 8px!important;
+    border-color: #e1b137!important;
+    padding: 5px!important;
+    margin: 10px!important;
+}
+.errors p,
+.success p {
+    padding: 15px;
+}

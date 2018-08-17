@@ -7,6 +7,7 @@
 <?php
 //including the database connection file
 include_once("config.php");
+include_once("header.php");
 
 if(isset($_POST['Submit'])) {	
 	$name = $_POST['name'];
@@ -46,8 +47,8 @@ if(isset($_POST['Submit'])) {
 		// $query->execute(array(':name' => $name, ':email' => $email, ':age' => $age));
 		
 		//display success message
-		echo "<font color='green'>Data added successfully.";
-		echo "<br/><a href='index.php'>View Result</a>";
+		echo "<h3>Data added successfully.</h3><br>";
+		echo "<h3><br/><a href='index.php'>View Result</a></h3>";
 	}
 }
 ?>

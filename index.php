@@ -1,6 +1,7 @@
 <?php
 //including the database connection file
 include_once("config.php");
+include_once("header.php");
 
 //fetching data in descending order (lastest entry first)
 $result = $dbConn->query("SELECT * FROM users ORDER BY id DESC");
@@ -12,9 +13,13 @@ $result = $dbConn->query("SELECT * FROM users ORDER BY id DESC");
 </head>
 
 <body>
+
+<h1>Simple CRUD app</h1>
+<hr>
+
 <a href="add.html">Add New Data</a><br/><br/>
 
-	<table width='80%' border=0>
+	<table class="table table-hover">
 
 	<tr bgcolor='#CCCCCC'>
 		<td>Name</td>

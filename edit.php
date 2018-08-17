@@ -1,6 +1,7 @@
 <?php
 // including the database connection file
 include_once("config.php");
+include_once("header.php");
 
 if(isset($_POST['update']))
 {	
@@ -69,8 +70,7 @@ while($row = $query->fetch(PDO::FETCH_ASSOC))
 	<br/><br/>
 	
 	<form name="form1" method="post" action="edit.php">
-		<table border="0">
-			<tr> 
+		<table class="table table-hover">			<tr>
 				<td>Name</td>
 				<td><input type="text" name="name" value="<?php echo $name;?>"></td>
 			</tr>
