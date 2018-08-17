@@ -37,5 +37,8 @@ $result = $dbConn->query("SELECT * FROM users ORDER BY id DESC");
 	}
 	?>
 	</table>
+<hr>
+<h4><a href="https://github.com/roberthoog/crud-app">KÄLLKOD</a></h4>
+
 </body>
 </html>
