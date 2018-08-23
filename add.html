@@ -1,38 +1,51 @@
 <html>
 <head>
 	<title>Add Data</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-<h1>Simple CRUD app</h1>
+<div class="container">
+	<div class="row align-items-center">
+		<h1>Simple CRUD app</h1>
 <hr>
-	<a href="index.php">Home</a>
+		<div class="container">
+			<div class="row">
+				<a href="add.html">Add New Data</a> | <a href="index.php">Home</a>
+			</div>
+
+			<hr>
+		</div>
 	<br/><br/>
 
 	<form action="add.php" method="post" name="form1">
-		<table width="25%" border="0">
+		<div class="form-group">
+		<table >
 			<tr> 
 				<td>Name</td>
-				<td><input type="text" name="name"></td>
+				<td><input class="form-control-lg" type="text" name="name"></td>
 			</tr>
 			<tr> 
 				<td>Age</td>
-				<td><input type="text" name="age"></td>
+				<td><input class="form-control-lg" type="text" name="age"></td>
 			</tr>
 			<tr> 
 				<td>Email</td>
-				<td><input type="text" name="email"></td>
+				<td><input type="text" class="form-control-lg"  name="email"></td>
 			</tr>
 			<tr> 
 				<td></td>
-				<td><input type="submit" name="Submit" value="Add"></td>
+				<td><input class="btn btn-outline-primary btn-lg" type="submit" name="Submit" value=" Add "></td>
 			</tr>
 		</table>
 	</form>
+		</div>
+		</div>
+	</div>
 </body>
 </html>
 

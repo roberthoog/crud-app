@@ -1,28 +1,47 @@
 body {
     font-size: 16px;
-    background: #dddddd url("https://photography-rh.com/wp-content/uploads/2017/08/100X100-GRAY.jpg");
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    font-family: 'Raleway'!important;, sans-serif;
+    font-weight: 300!important;
+    min-height:100%;
+    background:linear-gradient(0deg,rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url("bg.jpg");
+    background-size:cover;
 }
+a {
+    color: aqua;
+}
+a:hover {
+    color: #fff;}
 body,
 h1,
 p,
 th,
 tr,
 table {
-    font-family: 'Raleway'!important;, sans-serif;
-    font-weight: 300!important;
     margin: 20px!important;
 }
 td {
     font-weight: 800;
 }
+table:hover {
+    color: #000;
+}
 input, textarea, button  {
     border-radius: 3px!important;
-    border-color: #e1b137!important;
-    border-radius: 8px!important;
     border-color: #e1b137!important;
     padding: 5px!important;
     margin: 10px!important;
 }
 .warning {
     color: red;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+nav {
+    text-align: center;
 }

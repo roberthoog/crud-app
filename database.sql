@@ -1,6 +1,4 @@
-create database test;
-
-use test;
+use ykpymexh_insite_db;
 
 CREATE TABLE `users` (
   `id` int(11) NOT NULL auto_increment,
