@@ -1,6 +1,6 @@
 Simple PHP-MySQL CRUD (Add, Edit, Delete, View) using PDO
 ========
 
-A simple and basic system to add, edit, delete and view using PHP (PDO) and MySQL.
+This is a boilerplate that I use for apps such as membership sites. It can be modified to fit your heart's content.
 
 
